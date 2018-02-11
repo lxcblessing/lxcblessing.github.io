@@ -8,6 +8,12 @@
         font-family: "微软雅黑";
     }
     
+.no3{
+	text-align: center;
+	line-height: 10rem;
+	color: #ebcd99;
+}
+input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}
     
     
     .laba-box {
