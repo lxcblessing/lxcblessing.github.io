@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+    <title>超超拜年了~</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/homecss.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+   
+  </head>
+  <body>
+	<!--音频标签-->
+	<audio src="video/纯音乐 - 春节序曲.mp3" autoplay loop></audio> 
+	<div class="laba-box">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+        <span class="line4"></span>
+    </div>
+	<div class="swiper-container" id="waibox">
+        <div class="swiper-wrapper" id="boxheight">
+            <div class="swiper-slide no1">
+            	<transition enter-active-class="animated bounceInDown">
+            		<div class="kai" v-show="bool" v-cloak>開</div>
+            	</transition>
+            	<div class="imgbox">
+            		<img src="images/zuoli1.jpg" alt="" />
+            	</div>
+            </div>
+            <div class="swiper-slide no2">
+            	<transition enter-active-class="animated fadeInDown">
+            		<p v-show="zibool1">狗年到祝福到</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool2">又是一年的开头</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool3">一个希望的开端</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool4">送一份快乐</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool5">让你忘记烦恼</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool6">送一份如意</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool7">让你事事顺心</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool8">在新的一年里祝大家</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool9">旺！旺！旺！</p>
+            	</transition>
+            	<transition enter-active-class="animated fadeInDown">
+	            	<p v-show="zibool10">新年快乐~</p>
+            	</transition>
+            	<transition enter-active-class="animated bounce">
+            		<h3 class="fuzi"><span class="cssrotae">福</span></h3> 
+            	</transition>
+            </div>  
+        </div>
+    <div class="swiper-button-next butkai" v-show="bool"></div>
+    </div>
+	
+	
+	 
+	<script src="js/vue.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script> 
+	<script src="js/swiper.min.js"></script>
+	<script src="js/homejs.js"></script>
+	<script>
+		window.onload = function() {      
+			
+		}; 
+	</script>
+	<script>
+    
+ 
+    </script>
+  </body>
+</html>
